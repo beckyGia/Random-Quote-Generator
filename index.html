@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" color-mode="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random Donald Trump Quotes</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,200;1,300;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav>
+    <!--Light mode button-->
+    <div class="light">
+      <button id="light" class="color-mode_btn light-hidden">Light Mode
+        <i class="fa-regular fa-sun"></i>
+      </button>
+    </div>
+
+    <!--Dark mode button-->
+    <div class="dark">
+      <button id="dark" class="color-mode_btn dark-hidden">Dark Mode
+        <i class="fa-regular fa-moon"></i>
+      </button>
+    </div>
+  </nav>
+
+  <div class="wrapper">
+    <header>Random Donald Trump Quotes</header>
+    <section class="content">
+      <div class="quote-text" id="js-quote-text">
+        <i class="fas fa-quote-left"></i>
+        <div class="quote"></div>
+        <i class="fas fa-quote-right"></i>
+      </div>
+    </section>
+    <section class="controls">
+      <div class="features">
+        <ul>
+          <li class="sound"><i class="fas fa-volume-up"></i></li>
+          <li class="copy"><i class="fas fa-copy"></i></li>
+          <div class="popup">
+            <h4>Copied!!</h4>
+          </div>
+          <li class="twitter"><i class="fab fa-twitter"></i></li>
+        </ul>
+        <button type="button" id="js-new-quote" class="new-quote-button">New Quote</button>
+      </div>
+    </section>
+
+    <script src="main.js"></script>
+  </div>
+</body>
+
+</html>
